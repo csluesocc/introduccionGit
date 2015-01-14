@@ -1,5 +1,8 @@
-[Comunidad de Software y Hardware Libre UES FMOcc](https://www.facebook.com/cshluesocc)
+[Comunidad de Software y Hardware Libre](http://cshluesocc.org/)
 =========================================================
+
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.13950.svg)](http://dx.doi.org/10.5281/zenodo.13950)
+
 
 #Introducción a git
 
