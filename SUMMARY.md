@@ -7,5 +7,5 @@
 * [Introducción](introduccion.md)
 * [Instalación](instalacion.md)
 * [Configuración inicial](configuracion_inicial.md)
-* Git básico
+* [Git básico](git_basico.md)
 
