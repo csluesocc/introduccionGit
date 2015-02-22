@@ -5,5 +5,5 @@
 * [El problema](el_problema.md)
 * [La solución](la_solucion.md)
 * [Introducción](introduccion.md)
-* Instalación
+* [Instalación](instalacion.md)
 
