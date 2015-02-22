@@ -10,5 +10,3 @@ Ahora en día con servicios como los de [github](https://github.com/), [bitbucke
 
 Lo anterior fue una breve reseña de lo que son los sistemas de control de versiones y del porque deberíamos usarlos.
 
-A continuación nos centraremos en utilizar y poner en practica uno de los sistemas de control de versionas (SVC por sus siglas en ingles) más utilizados en el mundo, hablamos de __git__, creado por __Linus Torvalds__ el mismo creador el Kernel Linux y por la comunidad que trabaja en el mismo kernel.
-
