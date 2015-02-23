@@ -1,5 +1,6 @@
 #SISTEMAS DE CONTROL DE VERSIONES
 
+##El problema
 Los sistemas de control de versiones son aquellos que se encargan de registrar los cambios realizados sobre un archivo o un conjunto de archivos a lo largo del tiempo, con el objetivo de mantener un control sistemático permitiendo así en un futuro recuperar versiones especificas del o los archivos modificados. 
 
 Es muy común encontrarse con la situación donde se crea un archivo y luego se modifica perdiendo los cambios hechos antes de la ultima actualización; hay una forma de evitar el problema anterior y esta es haciendo una copia local, renombrarla y hacer los cambios en el nuevo archivo manteniendo la integridad del archivo original, pero, ¿que pasa si se han hecho 5 cambios bastante significativos al archivo? Habría que crear 5 copias diferentes ¿y si trabajo en equipo y cada persona modifica una parte del archivo?, esta situación se vuelve complicada y poco eficiente, la imagen a continuación muestra esta situación:
