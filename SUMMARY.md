@@ -10,4 +10,5 @@
 * [Git básico](git_basico.md)
    * [Ignorando archivos](ignorando_archivos.md)
    * [Revirtiendo cambios](revirtiendo_cambios.md)
+   * Remover y mover archivos
 
