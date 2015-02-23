@@ -126,14 +126,6 @@ Introducción a git
 
 Hemos utilizado git reset --soft HEAD^ que revierte el ultimo commit realizado manteniendo los cambios que se hicieron en el archivo o archivos modificados, al usar git status vemos que efectivamente regresamos al estado anterior del commit, ahora podemos, si lo queremos, editar de nuevo el archivo y hacer un nuevo commit. 
 
-Si por ejemplo queremos eliminar todos los archivos que no estan siendo seguidos por git en el repositorio actual git nos da un comando sencillo y util para esta tarea:
-
-```
-$ git clean -f
-```
-
-Lo anterior indica a git que borre todo lo que no ha sido previamente añadido al control de versión, para más informacion sobre este comando ir a la documentación ofical.
-
 Vamos a hacer commit de nuevo para continuar:
 
 ```
@@ -142,3 +134,17 @@ $ git commit -am "README actualizado"
  1 file changed, 3 insertions(+)
  ```
  
+Si por casualidad queremos eliminar permanentemente un commit o varios, podemos usar el comando reset con la opción --hard y el ID del commit:
+sintaxis: ```$ git reset --hard «commit sha1»```
+Es importante mencionar que este comando es peligroso, ya que con esto estaríamos borrando los commit que se han hecho posteriormente al commit que hemos especificado, no habrá forma de revertir los cambios ¿o quizás si? 
+
+__«tendríamos que investigar un poco, de paso aprendemos algo nuevo y lo compartimos acá...»__
+ 
+ 
+Si por ejemplo queremos eliminar todos los archivos que no estan siendo seguidos por git en el repositorio actual git nos da un comando sencillo y util para esta tarea:
+
+```
+$ git clean -f
+```
+
+Lo anterior indica a git que borre todo lo que no ha sido previamente añadido al control de versión, para más informacion sobre este comando ir a la documentación ofical.
