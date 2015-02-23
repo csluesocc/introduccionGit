@@ -78,6 +78,7 @@ nothing to commit (working directory clean)
 
 Git nos pide nuestro usuario y contraseña para poder enviar los cambios, luego podemos ver que  git status nos muestra que tenemos nuestro repositorio local y remoto actualizados. Podemos ver también en github que los cambios han sido efectuados correctamente:
 
+![](github3.png)
 
 
 
