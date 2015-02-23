@@ -1,4 +1,4 @@
-##Ignorando archivos
+##IGNORANDO ARCHIVOS
 
 Podemos también decirle a git que ignore ciertos archivos y estos no serán rastreados por git y no serán parte del repositorio aunque estos estén en nuestro directorio actual, esto es necesario muchas veces porque aveces los editores que usamos para trabajar crean archivos temporales en el directorio actual, archivos como ~script.py que realmente no queremos que sean parte de nuestro proyecto, para eso git tiene un archivo especial llamado __.gitignore__ que debemos crearlo y hacerle un commit en nuestra repo.
 
@@ -73,7 +73,3 @@ libs/
 Le hemos dicho a git que ignore todos los archivos en el directorio libs/ excepto por el archivo miScript.py, simplemente hemos usado el simbolo __!__ para idicar que ese archivo no debe ser ignorado, esto es realmente util en proyectos grandes donde hay archivos que no deben ser ignorados.
 
 Una lista extensa de ejemplos de .gitignore para diferentes tipos de proyectos puede ser encontrada en: https://github.com/github/gitignore. Más información de gitignore: http://git-scm.com/docs/gitignore.
-
-
-
-
