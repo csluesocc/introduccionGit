@@ -161,9 +161,7 @@ $ git log –graph
       script inicial
 ```
 
-Vemos como status nos muestra que no hay más cambios en nuestro archivos, el comando __log --graph__ nos muestra una pequeña  gráfica en a modo consola de los commits que hemos hecho. 
-
-Podemos también decirle a git que ignore ciertos archivos y estos no serán rastreados por git y no serán parte del repositorio aunque estos estén en nuestro directorio actual, esto es necesario muchas veces porque aveces los editores que usamos para trabajar, crean archivos temporales en el directorio actual, archivos como ~script.py que realmente no queremos que sean parte de nuestro proyecto, para eso git tiene un archivo especial llamado __.gitignore__ que debemos crearlo y hacerle un commit en nuestra repo.
+Vemos como status nos muestra que no hay más cambios en nuestro archivos, el comando __log --graph__ nos muestra una pequeña  gráfica en a modo consola de los commits que hemos hecho.
 
 
 
