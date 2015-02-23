@@ -21,8 +21,78 @@ $ git branch
   testing
 ```
   
-  
-  
+El __'*'__ dos dice en que rama estamos actualmente, cambiemos de rama entonces con git checkout:
+
+```
+$ git checkout testing 
+Switched to branch 'testing' 
+$ git status 
+# On branch testing 
+nothing to commit (working directory clean)
+```
+
+Vamos a agregar un par de lineas de código a un archivo
+
+```
+$ cat script2.py 
+#! /usr/bin/env python 
+for a in [1, 2]: 
+    for b in ["a", "b"]: 
+        print a, b
+```
+```
+$ git status
+# On branch testing 
+# Changes not staged for commit: 
+#   (use "git add <file>..." to update what will be committed) 
+#   (use "git checkout -- <file>..." to discard changes in working directory) 
+# 
+#	modified:   script2.py 
+# 
+no changes added to commit (use "git add" and/or "git commit -a") 
+```
+```
+$ git add . 
+$ git commit -am "combinaciones en python" 
+[testing d3dbf28] combinaciones en python 
+ 1 file changed, 5 insertions(+) 
+ mode change 100644 => 100755 script2.py 
+```
+
+Añadamos un nuevo archivo para luego unir las ramas testing y master en una sola:
+
+```
+$ touch script3.py 
+$ git add . 
+$ git commit -am "3er script" 
+[testing 0294943] 3er script 
+ 0 files changed 
+ create mode 100644 script3.py 
+$ git status 
+# On branch testing 
+nothing to commit (working directory clean)
+```
+
+hagamos un simple log de los 3 últimos commits hechos en la rama testing:
+
+```
+$ git log -3 --pretty=short 
+commit 0294943eb590210846c2875a07b5a24b08360c52 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    3er script 
+
+commit d3dbf28039a7fede95eafea4c0f5378c144c34d6 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    combinaciones en python 
+
+commit f3e208303b789e5d944f11a6565f1514714f4132 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    script.py renombrado a holaMundo.py 
+```
+
   
   
   
