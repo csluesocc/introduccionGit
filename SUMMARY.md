@@ -9,4 +9,5 @@
 * [Configuración inicial](configuracion_inicial.md)
 * [Git básico](git_basico.md)
    * [Ignorando archivos](ignorando_archivos.md)
+   * Revirtiendo cambios
 
