@@ -80,7 +80,4 @@ Git nos pide nuestro usuario y contraseña para poder enviar los cambios, luego 
 
 ![](github3.png)
 
-
-
-
-
+hemos hecho nuestro primer commit a un repositorio remoto.
