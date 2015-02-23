@@ -13,4 +13,5 @@
    * [Remover y mover archivos](remover_mover_archivos.md)
    * [Tagging](tagging.md)
 * [Ramificaciones](ramificaciones.md)
+* Repositorios remotos
 
