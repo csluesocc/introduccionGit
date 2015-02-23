@@ -11,5 +11,4 @@
    * [Ignorando archivos](ignorando_archivos.md)
    * [Revirtiendo cambios](revirtiendo_cambios.md)
    * [Remover y mover archivos](remover_mover_archivos.md)
-* [Repositorios remotos](repositorios_remotos.md)
 
