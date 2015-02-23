@@ -5,3 +5,5 @@ Como se menciono al principio de este tutorial, existen varios sitios en interne
 Veamos como luce entonces la interfaz de github (interfaz para organizaciones en nuestro caso):
 
 ![github](github.png)
+
+__Nota:__ para continuar con este tutorial deberás crear una cuenta en github (es gratis!!!) con la que crearemos un repositorio publico y trabajaremos con el. 
