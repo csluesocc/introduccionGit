@@ -93,7 +93,96 @@ Author: Mr. Floyd <mr.floyd@cshluesocc.org>
     script.py renombrado a holaMundo.py 
 ```
 
-  
+Regresemos al la rama master y hagamos también un log:
+
+```
+$ git checkout master 
+Switched to branch 'master' 
+$ git log -3 --pretty=short 
+commit f3e208303b789e5d944f11a6565f1514714f4132 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    script.py renombrado a holaMundo.py 
+
+commit 0f6d43a9c0687fa70ca95700aae45d75b782bb43 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    oops borrado correctamente 
+
+commit 43af71fcd7a71e468ebfa57d059f51bd5a9cacee 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    commit accidental 
+```
+
+en nuestra rama master no están los últimos commits que hicimos en la rama testing, tenemos que unir las ramas para que los cambios en testing se apliquen a la rama master, para eso usaremos el comando git merge así:
+
+```
+$ git merge testing 
+Updating f3e2083..0294943 
+Fast-forward 
+ script2.py |    5 +++++ 
+ 1 file changed, 5 insertions(+) 
+ mode change 100644 => 100755 script2.py 
+ create mode 100644 script3.py 
+```
+```
+$ git status 
+# On branch master 
+nothing to commit (working directory clean) 
+$ ls 
+holaMundo.py  README  script2.py  script3.py 
+$ cat script2.py 
+#! /usr/bin/env python 
+
+for a in [1, 2]: 
+    for b in ["a", "b"]: 
+        print a, b 
+```
+
+Vemos que tenemos los archivos actualizados según como los teníamos en la rama testing, hagamos un pequeño log para ver que ha pasado:
+
+```
+$ git log -4 --pretty=short 
+commit 0294943eb590210846c2875a07b5a24b08360c52 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    3er script 
+
+commit d3dbf28039a7fede95eafea4c0f5378c144c34d6 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    combinaciones en python 
+
+commit f3e208303b789e5d944f11a6565f1514714f4132 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org> 
+
+    script.py renombrado a holaMundo.py 
+
+commit 0f6d43a9c0687fa70ca95700aae45d75b782bb43 
+Author: Mr. Floyd <mr.floyd@cshluesocc.org>
+
+    oops borrado correctamente 
+```
+
+Tenemos todo actualizado.
+
+__Un par de observaciones:__  si editamos/agregamos/borramos algo en un a rama y no hacemos los respectivos adds, commits y nos cambiamos a una rama distinta, esta acción pueda que nos genere problemas en la rama a la que nos movimos pues esos cambios también estarán en esta ultima a pesar que no hayamos trabajado en ella. Por lo anterior se recomienda hacer los respectivos commit en la rama actual (dejando limpio el repositorio) antes de moverse a una rama distinta.
+
+_«Si crees que falta algo que aclarar o añadir en esta parte, por favor ayúdanos a mejorarla...»_
+
+Como ya hemos unidos nuestros cambios de la rama testing en la rama master, hagamos de cuenta que ya no necesitamos la rama testing y queremos borrarla. Para borrar una rama usamos __git branch__ con la opción __-d__ como en el siguiente ejemplo:
+
+```
+$ git branch -d testing
+Deleted branch testing (was 060ac2d).
+$ git branch 
+* master 
+```
+
+A groso modo esto es la base de las ramificaciones en git, puedes visitar la documentación oficial para más info y algunas buenas practicas. También este enlace puede ser útil http://nvie.com/posts/a-successful-git-branching-model/ en el encontraras un par de consejos para crear un modelo de ramas exitoso para tu trabajo en git en equipo o bien proyectos personales.
+
+_«Si crees conveniente y deseas ampliar esta sección no dudes en hacerlo, toda ayuda es bienvenida :)»_
   
   
   
