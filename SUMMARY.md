@@ -8,5 +8,5 @@
 * [Instalación](instalacion.md)
 * [Configuración inicial](configuracion_inicial.md)
 * [Git básico](git_basico.md)
-   * s
+   * gitignore
 
