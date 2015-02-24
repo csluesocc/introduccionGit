@@ -18,7 +18,7 @@ $ ls .git/
 branches  config  description  HEAD  hooks  info  objects  refs
 ```
 
-Comencemos un comando que usaremos mucho a lo largo de este tutorial:
+Comencemos con un comando que usaremos mucho a lo largo de este tutorial:
 
 ```
 $ git status
@@ -104,7 +104,13 @@ new file mode 100644
 index 0000000..e69de29
 ```
 
-con esto, decimos a git que nos muestre con detalle el commit con ID 3ccd2e06ed65ce95f7af3df9ca28c0dfb5af5fed, podemos usar el comando __show__ sin especificar  un id y git nos dará detalle del commit más reciente.
+con esto, decimos a git que nos muestre con detalle el commit con ID 3ccd2e06ed65ce95f7af3df9ca28c0dfb5af5fed. Escribir todo el ID del commit resulta un poco tedioso, pero no es necesario escribir todos los caracteres, podemos obtener el mismo resultado anterior haciendo:
+
+```
+$ git show 3ccd2e
+```
+
+__git show__ nos permite utilizar los primeros 5, 6 o 7 caracteres del ID del commit en lugar de los 40, con esto evitamos escribir tanto. También podemos usar el comando __show__ sin especificar  un id y git nos dará detalle del commit más reciente.
 
 ```
 $ git show
