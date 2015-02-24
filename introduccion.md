@@ -1,8 +1,8 @@
 # INTRODUCCIÓN
 
-A continuación nos centraremos en utilizar y poner en practica uno de los sistemas de control de versionas (SVC por sus siglas en ingles) más utilizados en el mundo, hablamos de __git__, creado por __Linus Torvalds__ el mismo creador el Kernel Linux y por la comunidad que trabaja en el mismo kernel.
+A continuación nos centraremos en utilizar y poner en practica uno de los sistemas de control de versiones (SVC por sus siglas en ingles) más utilizados en el mundo, hablamos de __git__, creado por __Linus Torvalds__ el mismo creador del Kernel Linux y por la comunidad que trabaja en el mismo kernel.
 
-En el año 2005 nació git como una necesidad de los desarrolladores del kernel Linux de tener su propio sistema de control de versiones, después de varios años usando BitKeeper (un DVCS propietario) el cual dejo de ser una opción viable para la comunidad de desarrolladores. 
+En el año 2005 nació git como una necesidad de los desarrolladores del kernel Linux de tener su propio sistema de control de versiones, después de varios años usando BitKeeper (un software propietario) el cual dejo de ser una opción viable para la comunidad de desarrolladores. 
 
 Git es distribuido bajo licencia GNU GPL v2 y esta disponible para múltiples sistemas operativos entre ellos, y sin duda alguna, GNU/Linux.
 
