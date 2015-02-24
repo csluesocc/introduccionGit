@@ -2,7 +2,7 @@ __Carlos Cárcamo, 2015__
 
 Queda a disposición de toda persona interesada en expandir el conocimiento con sus iguales. Copiar, editar y distribuir esta permitido, siempre y cuando se respete los términos de licencia abajo mencionados. 
 
-Quien desee contribuir a este documento, esta en la libertad de hacerlo, por lo cual este documento sera publicado en un repositorio publico en github en el siguiente enlace: https://github.com/csluesocc/introduccionGit, desde donde podrá ser editado y posteriormente publicado. En el momento que desees colaborar, por favor has un fork del repositorio, has las respectivas observaciones y/o ediciones al documento y agrega tu nombre a la lista de colaboradores a continuación:
+Quien desee contribuir a este documento, esta en la libertad de hacerlo, por lo cual este documento sera publicado en un repositorio público en github en el siguiente enlace: https://github.com/csluesocc/introduccionGit, desde donde podrá ser editado y posteriormente publicado. En el momento que desees colaborar, por favor has un fork del repositorio, has las respectivas observaciones y/o ediciones al documento y agrega tu nombre a la lista de colaboradores a continuación:
 
 ###COLABORADORES:
 
