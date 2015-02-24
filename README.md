@@ -16,4 +16,3 @@ No hay aporte que no valga, todo aporte, por pequeño que sea, es bienvenido en 
 Puedes contribuir con la comunidad ya sea compartiendo código, material didáctico, difundiendo el Software y hardware libre, difundiendo la comunidad, etc.
 
 Si deseas colaborar has un fork del proyecto en https://github.com/csluesocc/introduccionGit, edita, agrega nuevo contenido y has un pull request a este proyecto.
-
