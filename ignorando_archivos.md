@@ -1,6 +1,6 @@
 ##IGNORANDO ARCHIVOS
 
-Podemos también decirle a git que ignore ciertos archivos y estos no serán rastreados por git y no serán parte del repositorio aunque estos estén en nuestro directorio actual, esto es necesario muchas veces porque aveces los editores que usamos para trabajar crean archivos temporales en el directorio actual, archivos como ~script.py que realmente no queremos que sean parte de nuestro proyecto, para eso git tiene un archivo especial llamado __.gitignore__ que debemos crearlo y hacerle un commit en nuestra repo.
+Podemos también decirle a git que ignore ciertos archivos y/o directorios, estos no serán rastreados y no serán parte del repositorio aunque estos estén en nuestro directorio actual, esto es necesario muchas veces porque aveces los editores que usamos para trabajar crean archivos temporales en el directorio actual, archivos como ~script.py que realmente no queremos que sean parte de nuestro proyecto, para eso git tiene un archivo especial llamado __.gitignore__ que debemos crearlo y hacerle un commit en nuestra repo.
 
 El archivo __.gitignore__ es un simple  archivo  de texto que indica que tipo archivos queremos que git ignore, creemos nuestro .gitignore:
 
@@ -60,7 +60,7 @@ bower/
 libs/
 ```
 
-Lo anterior le dice a git que ignore el contenido de los directorios bower y libs, podemos además decirle a git que ingnore todo el directorio excepto un ciertos archivos, por ejemplo:
+Lo anterior le dice a git que ignore el contenido de los directorios bower y libs, podemos además decirle a git que ingnore todo el directorio excepto ciertos archivos, por ejemplo:
 
 ```
 #ignorar los directorios siguientes
