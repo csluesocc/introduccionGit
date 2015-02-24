@@ -1,4 +1,4 @@
-__2015__
+__Carlos Cárcamo, 2015__
 
 Queda a disposición de toda persona interesada en expandir el conocimiento con sus iguales. Copiar, editar y distribuir esta permitido, siempre y cuando se respete los términos de licencia abajo mencionados. 
 
