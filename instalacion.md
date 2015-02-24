@@ -1,6 +1,6 @@
 # INSTALACIÓN
 
-_Para poder seguir este tutorial, lo único que necesitarás sera una distro GNU/Linux, una terminal para ejecutar un par de comandos y sobre todo muchas granas de aprender e investigar._
+_Para poder seguir este tutorial, lo único que necesitarás será una distro GNU/Linux, una terminal para ejecutar un par de comandos y sobre todo muchas granas de aprender e investigar._
 
 ##INSTALANDO GIT EN TU DISTRO FAVORITA
 
