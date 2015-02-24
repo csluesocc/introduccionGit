@@ -1,6 +1,6 @@
 #CONFIGURACIÓN INICIAL
 
-Lo primero que debemos hacer luego de instalar git es configurar nuestro nombre y usuario con el que git nos identificará cada vez que trabajemos sobre nuestros proyectos.
+Lo primero que debemos hacer, luego de instalar git, es configurar nuestro nombre y email con el que git nos identificará cada vez que trabajemos sobre nuestros proyectos.
 
 Git permite configurar varias opciones y solo es necesario hacerlo una vez, por el momento nos centraremos en lo básico, como siempre, recomendamos indagar un poco en la documentación oficial para más detalles.
 
