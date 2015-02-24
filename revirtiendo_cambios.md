@@ -53,6 +53,8 @@ $ git commit -am “segundo script y README”
 $ git status 
 # On branch master 
 nothing to commit (working directory clean) 
+```
+```
 $ git log --pretty=short 
 commit fc597238a5147ea8ece42ca6817f932a366b6069 
 Author: Mr. Floyd <mr.floyd@ues.edu.sv>
