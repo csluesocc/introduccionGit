@@ -1,8 +1,8 @@
-[Comunidad de Software y Hardware Libre](http://cshluesocc.org/)
-=========================================================
-
+Comunidad de Software y Hardware Libre 
+======================================
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.13950.svg)](http://dx.doi.org/10.5281/zenodo.13950)
 
+![](csl.png)
 
 #Introducción a git
 
