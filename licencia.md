@@ -6,6 +6,8 @@ Quien desee contribuir a este documento, esta en la libertad de hacerlo, por lo 
 
 ###COLABORADORES:
 
+- [AgusRumayor](https://github.com/AgusRumayor)
+
 <br><br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">obra</span> está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
 Puede copiar, distribuir y realizar obras derivadas del texto original siempre y cuando se haga referencia al autor y no se persiga una finalidad comercial. 
